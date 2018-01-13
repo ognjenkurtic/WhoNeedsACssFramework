@@ -1,0 +1,19 @@
+{
+  "name": "whoneedsacssframework",
+  "version": "1.0.0",
+  "description": "This repo contains examples of common UI problems solved using old-school CSS, Twitter Bootstrap and new CSS features such as flex-box or CSS grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ognjenkurtic/WhoNeedsACssFramework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ognjenkurtic/WhoNeedsACssFramework/issues"
+  },
+  "homepage": "https://github.com/ognjenkurtic/WhoNeedsACssFramework#readme"
+}
