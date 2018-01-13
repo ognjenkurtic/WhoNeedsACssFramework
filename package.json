@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ognjenkurtic/WhoNeedsACssFramework/issues"
   },
-  "homepage": "https://github.com/ognjenkurtic/WhoNeedsACssFramework#readme"
+  "homepage": "https://github.com/ognjenkurtic/WhoNeedsACssFramework#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.0",
+    "run-sequence": "^2.2.1"
+  }
 }
