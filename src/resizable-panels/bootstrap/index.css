@@ -1,0 +1,19 @@
+.wrapper {
+    height: 800px;
+}
+
+.row-wrapper {
+    height: 100%;
+}
+
+.left-pane {
+    border: 1px solid black;
+}
+
+.middle-pane {
+    border: 1px solid yellow;
+}
+
+.right-pane {
+    border: 1px solid blue;
+}
