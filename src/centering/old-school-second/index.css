@@ -1,0 +1,34 @@
+/* Pocetno stanje - Slika na vrhu */
+/* 1 primer - Centriraj bez tabela */
+/* 2 primer - Tekst pored slike */
+
+body, html {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center; /* 1 primer*/
+}
+
+.wrapper:before {       /* 1 primer*/
+    content: '';    /* 1 primer*/
+    display: inline-block;  /* 1 primer*/
+    height: 100%;   /* 1 primer*/
+    vertical-align: middle; /* 1 primer*/
+  }     /* 1 primer*/
+
+.content-to-center {
+    display: inline-block;      /* 1 primer*/
+    vertical-align: middle;     /* 1 primer*/
+    border: 1px solid green;
+}
+
+img {
+    vertical-align: middle; /* 2 primer */
+}
+
+.text-to-center {
+}
