@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+.title {
+    outline: 1px solid red;
+    text-align: center;
+    height: 5%;
+}
+
+.banner {
+    outline: 1px solid green;
+    height: 30%;
+    text-align: center;
+}
+
+.content-container {
+    outline: 1px solid purple;
+    height: 60%;
+}
+
+.content-column-1 {
+    outline: 1px solid brown;
+    float: left;
+    width: 33.3%;
+    height:100%;
+}
+
+@media screen and (max-width: 400px) {
+    .content-column-1 {
+        float: none;
+        width: 100%;
+        height: 33.3%;
+    }
+}
+
+.content-column-2 {
+    outline: 1px solid blue;
+    float: right;
+    width: 33.3%;
+    height:100%;
+}
+
+@media screen and (max-width: 400px) {
+    .content-column-2 {
+        float: none;
+        width: 100%;
+        height: 33.3%;
+    }
+}
+
+.content-column-3 {
+    outline: 1px solid orange;
+    float: right;
+    width: 33.3%;
+    height:100%;
+}
+
+@media screen and (max-width: 400px) {
+    .content-column-3 {
+        float: none;
+        width: 100%;
+        height: 33.3%;
+    }
+}
+
+.footer {
+    outline: 1px solid black;
+    height: 5%;
+}
