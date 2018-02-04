@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sexy landing page</title>
+    <link rel="stylesheet" type="text/css" href="chessboard.css">
+</head>
+<body>
+
+<div class="page-container">
+</div>
+
+<script>
+    repeat();
+
+    function repeat() {
+        let pageContainer = document.getElementsByClassName('page-container')[0];
+
+        for(let i = 0; i < 8; i++) {
+            let className = i % 2 === 0 ? 'black-field' : 'white-field';
+
+            for(let i = 0; i < 8; i++) {
+                let chessField = document.createElement('div');
+                chessField.classList.add('grid-item');
+                chessField.classList.add(className);
+                pageContainer.appendChild(chessField)
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

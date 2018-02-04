@@ -1,0 +1,28 @@
+.page-container {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(8, auto);
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.page-container .grid-item {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.white-field:nth-child(odd) {
+    background-color: white;
+}
+
+.white-field:nth-child(even) {
+    background-color: black;
+}
+
+.black-field:nth-child(odd) {
+    background-color: black;
+}
+
+.black-field:nth-child(even) {
+    background-color: white;
+}

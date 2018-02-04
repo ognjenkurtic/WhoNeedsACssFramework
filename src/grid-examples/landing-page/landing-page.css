@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5% 35% 35% 25%;
+    grid-gap: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+
+    grid-template-areas:
+        "navbar navbar navbar"
+        "marketing marketing marketing"
+        "product1 product2 product3"
+        "footer footer footer";
+}
+
+@media only screen and (max-width: 600px) {
+    .page-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% 35% 25% 25% 25% 15%;
+        grid-template-areas:
+                "navbar"
+                "marketing"
+                "product1"
+                "product2"
+                "product3"
+                "footer";
+    }
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    grid-area: navbar;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+.marketing {
+    grid-area: marketing;
+}
+
+.product {
+    border: 1px solid black;
+}
+
+.product1 {
+    grid-area: product1;
+    background-color: orange;
+}
+
+.product2 {
+    grid-area: product2;
+    background-color: lightyellow;
+}
+
+.product3 {
+    grid-area: product3;
+    background-color: indianred;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: antiquewhite;
+}
