@@ -2,36 +2,33 @@ html, body {
     height: 100%;
 }
 
-.title {
-    outline: 1px solid red;
-    text-align: center;
+.custom-navbar {
     height: 5%;
+    background-color: deepskyblue;
 }
 
-.banner {
+.marketing {
     outline: 1px solid green;
     height: 30%;
-    text-align: center;
 }
 
 .container-fluid {
-    outline: 1px solid purple;
     height: 60%;
 }
 
 .content-column-1 {
-    outline: 1px solid brown;
+    background-color: orange;
 }
 
 .content-column-2 {
-    outline: 1px solid blue;
+    background-color: lightyellow;
 }
 
 .content-column-3 {
-    outline: 1px solid orange;
+    background-color: indianred;
 }
 
 .footer {
-    outline: 1px solid black;
+    background-color: antiquewhite;
     height: 5%;
 }
