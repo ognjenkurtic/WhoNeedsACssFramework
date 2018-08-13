@@ -8,32 +8,51 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="links">
-            <img src="images/old-school.jpg" style="width:100px;">
-            <a href="/centering/old-school-first">Centering with old school approach 1</a>
-            <a href="/centering/old-school-second">Centering with old school approach 2</a>
-            <a href="/resizable-panels/old-school">Resizable panels with old school approach</a>
-            <a href="/general-layout/old-school">General layout with old school approach</a>
+    <div id="impress">
+        <div id="intro" class="step slide" data-x="-1000" data-y="-1500">
+            <q>Коме треба ЦСС фрејмврк?</q>
         </div>
-        <div class="links">
-            <img src="images/bootstrap.jpg" style="width:100px;">
-            <a href="/centering/bootstrap">Centering with boostrap</a>
-            <a href="/resizable-panels/bootstrap">Resizable panels bootstrap</a>
-            <a href="/general-layout/bootstrap">General layout with bootstrap</a>
+        <div id="old-school-1-example-slide" class="step slide" data-x="0" data-y="-1500">
+            <a href="./centering/old-school-first/index.html">Centering with the old school approach 1</a>
         </div>
-        <div class="links">
-            <img src="images/flex.jpg" style="width:100px;">
-            <a href="/centering/flex">Centering with CSS3</a>
-            <a href="/resizable-panels/flex">Resizable panels CSS3</a>
-            <a href="/general-layout/flex">General layout with CSS3</a>
+        <div id="old-school-2-example-slide" class="step slide" data-x="1000" data-y="-1500">
+            <a href="./centering/old-school-second/index.html">Centering with the old school approach 2</a>
         </div>
-        <div class="links">
-            <a href="grid-examples/chessboard/chessboard.html">Grid trivia - chessboard</a>
-        </div>
-        <div class="links">
+        <div id="Mondrian" class="step slide" data-x="1000" data-y="2000">
             <a href="http://labs.jensimmons.com/2017/01-011.html">Grid trivia - Piet Mondrian</a>
         </div>
+        <div id="overview" class="step slide" data-x="0" data-y="0" data-scale="4"> </div>
     </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
 </body>
+
 </html>
+
+<!-- <div class="container">
+    <div class="links">
+        <img src="images/old-school.jpg" style="width:100px;">
+        <a href="./centering/old-school-first/index.html">Centering with old school approach 1</a>
+        <a href="/centering/old-school-second">Centering with old school approach 2</a>
+        <a href="/resizable-panels/old-school">Resizable panels with old school approach</a>
+        <a href="/general-layout/old-school">General layout with old school approach</a>
+    </div>
+    <div class="links">
+        <img src="images/bootstrap.jpg" style="width:100px;">
+        <a href="/centering/bootstrap">Centering with boostrap</a>
+        <a href="/resizable-panels/bootstrap">Resizable panels bootstrap</a>
+        <a href="/general-layout/bootstrap">General layout with bootstrap</a>
+    </div>
+    <div class="links">
+        <img src="images/flex.jpg" style="width:100px;">
+        <a href="/centering/flex">Centering with CSS3</a>
+        <a href="/resizable-panels/flex">Resizable panels CSS3</a>
+        <a href="/general-layout/flex">General layout with CSS3</a>
+    </div>
+    <div class="links">
+        <a href="grid-examples/chessboard/chessboard.html">Grid trivia - chessboard</a>
+    </div>
+    <div class="links">
+        <a href="http://labs.jensimmons.com/2017/01-011.html">Grid trivia - Piet Mondrian</a>
+    </div>
+</div> -->
