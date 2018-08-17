@@ -6,6 +6,7 @@ html, body {
 }
 
 .page-container {
+    border:1px solid blue;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -13,19 +14,19 @@ html, body {
 }
 
 .products {
+    border: 1px solid green;
     display: flex;
     height: 50%;
     width: 100%;
-    border: 1px solid burlywood;
+    flex-wrap: wrap;
 }
 
 .product {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex-grow: 1;
-    border: 1px solid black;
-    margin-left: 10px;
+   margin-left: 10px;
     margin-right: 10px;
 }
 
