@@ -10,13 +10,11 @@ html, body {
 
 .page-container {
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5% 35% 35% 25%;
-    grid-gap: 15px;
     background-color: whitesmoke;
     padding: 10px;
-    text-align: center;
+    display: grid;
+    grid-template-rows: 5% 35% 35%;
+    grid-gap: 15px;
 
     grid-template-areas:
         "navbar navbar navbar"
@@ -27,7 +25,6 @@ html, body {
 
 @media only screen and (max-width: 600px) {
     .page-container {
-        grid-template-columns: 1fr;
         grid-template-rows: 5% 35% 25% 25% 25% 15%;
         grid-template-areas:
                 "navbar"
@@ -47,16 +44,11 @@ html, body {
 
 .navbar {
     grid-area: navbar;
-    height: 100%;
     background-color: deepskyblue;
 }
 
 .marketing {
     grid-area: marketing;
-}
-
-.product {
-    border: 1px solid black;
 }
 
 .product1 {
@@ -66,15 +58,18 @@ html, body {
 
 .product2 {
     grid-area: product2;
+    border: 1px solid black;
     background-color: lightyellow;
 }
 
 .product3 {
     grid-area: product3;
+    border: 1px solid black;
     background-color: indianred;
 }
 
 .footer {
     grid-area: footer;
+    border: 1px solid black;
     background-color: antiquewhite;
 }

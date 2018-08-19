@@ -14,30 +14,13 @@ html, body {
     margin-top: 10%;
 }
 
-.container-fluid {
-    height: 60%;
-}
-
-.content-column-1 {
-    background-color: orange;
-}
-
-.content-column-2 {
-    background-color: lightyellow;
-}
-
-.content-column-3 {
-    background-color: indianred;
-}
-
 .footer {
     background-color: antiquewhite;
-    height: 5%;
 }
 
 .product {
     border: 1px solid black;
-    height: 200px;
+    height: 250px;
 }
 
 .product1 {
