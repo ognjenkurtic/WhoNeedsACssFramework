@@ -11,7 +11,8 @@ gulp.task('watch', function () {
     browserSync.init({
         server: {
             baseDir: DIST_PATH
-        }
+        },
+        browser: "chrome"
     });
 
     gulp.watch(`${SRC_PATH}/**/*.css`, ['copy-css']).on('change', function () {
