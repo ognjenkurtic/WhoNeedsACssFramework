@@ -2,12 +2,24 @@ body, html {
     height: 100%;
 }
 
-.wrapper {
+.outer-div {
+    display: table;
     height: 100%;
     width: 100%;
-    border: 1px solid blue;
+    border: 1px solid black;
+    background-color: deepskyblue;
 }
 
-.content-to-center {
-    border: 1px solid green;
+.middle-div {
+    display: table-cell!important;
+    vertical-align: middle;
+    background-color: orange;
+    width: 80%;
+    height: 80%;
+}
+
+.inner-div {
+    width: 60%;
+    height: 60%;
+    background-color: indianred;
 }
