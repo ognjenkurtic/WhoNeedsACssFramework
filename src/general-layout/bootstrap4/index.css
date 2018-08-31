@@ -1,0 +1,30 @@
+.custom-navbar {
+    height: 5%;
+    background-color: deepskyblue;
+}
+
+.marketing {
+    height: 30%;
+    margin-top: 10%;
+}
+
+.footer {
+    background-color: antiquewhite;
+}
+
+.product {
+    border: 1px solid black;
+    height: 250px;
+}
+
+.product1 {
+    background-color: orange;
+}
+
+.product2 {
+    background-color: lightyellow;
+}
+
+.product3 {
+    background-color: indianred;
+}
